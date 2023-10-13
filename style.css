@@ -7,7 +7,6 @@ div {
 /* Gaya untuk judul utama */
 h1 {
     font-size: 36px;
-    color:  blue;
 }
 
 /* Gaya untuk data siswa */
@@ -23,7 +22,6 @@ h1 {
 .intro h2 {
     font-size: 18px;
     margin: 10px 0;
-    color: #555;
 }
 
 /* Gaya untuk tabel */
@@ -49,12 +47,4 @@ td {
     text-align: left;
 }
 
-/* Gaya untuk baris ganjil */
-tr:nth-child(odd) {
-    background-color: #f2f2f2;
-}
 
-/* Gaya untuk baris saat dihover */
-tr:hover {
-    background-color: #ddd;
-}
