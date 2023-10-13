@@ -31,18 +31,4 @@ table {
     margin-top: 20px;
 }
 
-/* Gaya untuk header kolom */
-th {
-    border: 1px solid #ccc;
-    text-align: left;
-    padding: 10px;
-}
-
-/* Gaya untuk sel data */
-td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-
 
