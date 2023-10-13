@@ -11,7 +11,6 @@ h1 {
 
 /* Gaya untuk data siswa */
 .intro {
-    background-color: seashell;
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -34,7 +33,6 @@ table {
 
 /* Gaya untuk header kolom */
 th {
-    background-color: red;
     color: white;
     text-align: left;
     padding: 10px;
