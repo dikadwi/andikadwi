@@ -33,7 +33,7 @@ table {
 
 /* Gaya untuk header kolom */
 th {
-    color: white;
+    border: 1px solid #ccc;
     text-align: left;
     padding: 10px;
 }
