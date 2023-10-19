@@ -88,9 +88,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 source: new ol.source.OSM()
             })
         ],
-        view: new ol.View({
-            center: ol.proj.fromLonLat([ 112.122462,-7.703891]),
-            zoom: 15.5
+       view: new ol.View({
+            center: ol.proj.fromLonLat([110.336137, -7.770127]),
+            zoom: 17.5
         })
     });
 
