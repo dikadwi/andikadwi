@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const PointTable = document.getElementById("linestringTable").getElementsByTagName('tbody')[0];
 
-    fetch("https://raw.githubusercontent.com/dikadwi/andikadwi/main/linestring.json") // Ganti "point.json" dengan nama file JSON Anda
+    fetch("https://raw.githubusercontent.com/dikadwi/andikadwi/main/polyline.json") // Ganti "point.json" dengan nama file JSON Anda
         .then(response => response.json())
         .then(data => {
             let rowNum = 1; // Nomor urut awal
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const lineStringSource = new ol.source.Vector({
-        url: 'https://raw.githubusercontent.com/dikadwi/andikadwi/main/linestring.json',
+        url: 'https://raw.githubusercontent.com/dikadwi/andikadwi/main/polyline.json',
         format: new ol.format.GeoJSON()
     });
 
