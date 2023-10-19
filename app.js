@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
             })
         ],
         view: new ol.View({
-            center: ol.proj.fromLonLat([ 112.12246251533861,-7.70389186713885]),
-            zoom: 70.5
+            center: ol.proj.fromLonLat([ 112.122462,-7.703891]),
+            zoom: 15.5
         })
     });
 
